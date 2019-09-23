@@ -1,0 +1,9 @@
+<apex:page controller="ControllerClassM">
+  <apex:pageBlock >
+        <apex:pageBlockSection title="Account Information">
+            <apex:outputField value="{!accObject.Name}"/>
+            <apex:outputField value="{!accObject.Industry}"/>
+            <apex:outputField value="{!accObject.Description}"/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>
