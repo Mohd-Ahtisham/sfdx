@@ -1,5 +1,5 @@
 public with sharing class HelloClass {
-    public HelloClass() {
+    public static void helloClassMethod() {
        System.debug('My first class');
     }
 }
